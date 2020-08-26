@@ -1,0 +1,62 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "context": {
+    "id": "isModalOpened",
+    "value": true
+  },
+  "children": [
+    {
+      "_beagleComponent_": "custom:modal",
+      "isOpen": "@{isModalOpened}",
+      "onClose": [
+        {
+          "_beagleAction_": "beagle:alert",
+          "message":"Modal Closed"
+        }
+      ],
+      "style": {
+        "flex": {
+          "alignItems": "CENTER",
+          "justifyContent": "CENTER"
+        }
+      },
+      "children": [
+        {
+          "_beagleComponent_": "beagle:container",
+          "children": [
+            {
+              "_beagleComponent_": "beagle:text",
+              "text": "This is a modal!",
+              "alignment": "center",
+              "style": {
+                "marginTop": "10px"
+              }
+            },
+            {
+              "_beagleComponent_": "beagle:button",
+              "text": "Close Modal",
+              "onPress": [
+                {
+                  "_beagleAction_": "beagle:setContext",
+                  "contextId": "isModalOpened",
+                  "value": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Open Modal",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:setContext",
+          "contextId": "isModalOpened",
+          "value": true
+        }
+      ]
+    }
+  ]
+}

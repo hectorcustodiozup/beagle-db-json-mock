@@ -1,0 +1,46 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "style":{
+    "margin":{
+      "top":{
+        "value":"100",
+        "type":"REAL"
+      }
+    }
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:text-area",
+      "placeholder": "Beagle Input Placeholder"
+    },
+    {
+      "_beagleComponent_": "beagle:textInput",
+      "placeholder": "Beagle Input Placeholder"
+    },
+    {
+      "_beagleComponent_": "beagle:textInput",
+      "placeholder": "Beagle Input Placeholder",
+      "disabled":"true"
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Back",
+      "style":{
+        "margin":{
+          "top":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      },
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/home"
+          }
+        }
+      ]
+    }
+  ]
+}

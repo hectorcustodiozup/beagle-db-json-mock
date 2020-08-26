@@ -1,0 +1,48 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "style":{
+    "margin":{
+      "top":{
+        "value":"100",
+        "type":"REAL"
+      }
+    }
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle Text Component"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle Text Component",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle Text Component",
+      "textColor":"#676729",
+      "alignment": "RIGHT"
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Back",
+      "style":{
+        "margin":{
+          "top":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      },
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/home"
+          }
+        }
+      ]
+    }
+  ]
+}

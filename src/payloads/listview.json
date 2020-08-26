@@ -1,0 +1,397 @@
+{
+  "_beagleComponent_": "beagle:listview",
+  "children": [
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle List View Item",
+      "alignment": "CENTER"
+    },
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://picsum.photos/200"
+      },
+      "style":{
+        "size":{
+          "height":{
+            "value":"100",
+            "type":"REAL"
+          },
+          "width":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Back",
+      "style":{
+        "margin":{
+          "top":{
+            "value":"100",
+            "type":"REAL"
+          }
+        }
+      },
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/home"
+          }
+        }
+      ]
+    }
+  ]
+}

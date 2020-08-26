@@ -1,0 +1,90 @@
+{
+  "_beagleComponent_": "beagle:listview",
+  "children": [
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Beagle React Native Default Components",
+      "alignment": "center",
+      "style": {
+        "margin": {
+          "all": {
+            "value": "20",
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Text Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/text"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Image Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/image"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Error Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/error"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Listview Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/listview"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Modal Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/modal"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Input Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/input"
+          }
+        }
+      ]
+    }
+  ]
+}

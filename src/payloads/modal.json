@@ -57,6 +57,18 @@
           "value": true
         }
       ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Back",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/home"
+          }
+        }
+      ]
     }
   ]
 }

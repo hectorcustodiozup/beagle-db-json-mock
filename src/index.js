@@ -60,41 +60,30 @@ server.get('/input', (request, response) => {
   }
 })
 
-// {
-//   "_beagleComponent_":"beagle:container",
-//   "children":[
-//     {
-//       "_beagleComponent_":"beagle:text",
-//       "text":"TEXT",
-//       "textColor":"#873647",
-//       "style": {
-//         "flex": {
-//           "flexDirection": "COLUMN",
-//           "alignItems": "CENTER",
-//           "justifyContent": "CENTER"
-//         },
-//         "positionType":"relative",
-//         "position": {
-//           "top": {
-//             "value": 10,
-//             "type": "REAL"
-//           },
-//           "left": {
-//             "value": 10,
-//             "type": "REAL"
-//           }
-//         },
-//         "margin": {
-//           "top": {
-//             "value": 100,
-//             "type": "REAL"
-//           },
-//           "left": {
-//             "value": 10,
-//             "type": "REAL"
-//           }
-//         }
-//       }
-//     }
-//   ]
-// }
+server.get('/touchable', (request, response) => {
+  if (request.method === 'GET') {
+    const users = require('./payloads/touchable.json')
+    response.status(200).jsonp(users)
+  }
+})
+
+server.get('/loading', (request, response) => {
+  if (request.method === 'GET') {
+    const users = require('./payloads/loading.json')
+    response.status(200).jsonp(users)
+  }
+})
+
+server.get('/tabbar', (request, response) => {
+  if (request.method === 'GET') {
+    const users = require('./payloads/tabbar.json')
+    response.status(200).jsonp(users)
+  }
+})
+
+server.get('/lazy', (request, response) => {
+  if (request.method === 'GET') {
+    const users = require('./payloads/lazy.json')
+    response.status(200).jsonp(users)
+  }
+})

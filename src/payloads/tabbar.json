@@ -1,0 +1,119 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "context": {
+    "id": "contextTab",
+    "value": 0
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:tabbar",
+      "onTabSelection": [
+        {
+          "_beagleAction_": "beagle:setContext",
+          "contextId": "contextTab",
+          "value": "@{onTabSelection}"
+        }
+      ],
+      "currentTab": "@{contextTab}",
+      "items": [
+        {
+          "icon": {
+            "_beagleImagePath_": "remote",
+            "url": "https://picsum.photos/200"
+          },
+          "title": "Tab 1"
+        },
+        {
+          "icon": {
+            "_beagleImagePath_": "remote",
+            "url": "https://picsum.photos/200"
+          },
+          "title": "Tab 2"
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:pageview",
+      "currentPage": "@{contextTab}",
+      "showArrow": true,
+      "onPageChange": [
+        {
+          "_beagleAction_": "beagle:setContext",
+          "contextId": "contextTab",
+          "value": "@{onPageChange}"
+        }
+      ],
+      "children": [
+        {
+          "_beagleComponent_": "beagle:image",
+          "path": {
+            "_beagleImagePath_": "remote",
+            "url": "https://i.ibb.co/k9tYwtX/selo-do-exemplo-28420393.jpg"
+          },
+          "style": {
+            "size": {
+              "height": {
+                "value": 250,
+                "type": "REAL"
+              },
+              "width": {
+                "value": 300,
+                "type": "REAL"
+              }
+            },
+            "margin": {
+              "top": {
+                "value": 10,
+                "type": "REAL"
+              }
+            }
+          }
+        },
+        {
+          "_beagleComponent_": "beagle:image",
+          "path": {
+            "_beagleImagePath_": "remote",
+            "url": "https://i.ibb.co/LCKYdCT/742px-Example-en-svg.png"
+          },
+          "style": {
+            "size": {
+              "height": {
+                "value": 250,
+                "type": "REAL"
+              },
+              "width": {
+                "value": 300,
+                "type": "REAL"
+              }
+            },
+            "margin": {
+              "top": {
+                "value": 10,
+                "type": "REAL"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:pageindicator",
+      "selectedColor": "#000000",
+      "unselectedColor": "#888888",
+      "numberOfPages": 2,
+      "currentPage": "@{contextTab}"
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Back",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/home"
+          }
+        }
+      ]
+    }
+  ]
+}

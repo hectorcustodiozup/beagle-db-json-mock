@@ -17,6 +17,15 @@
     {
       "_beagleComponent_": "beagle:button",
       "text": "Text Component",
+      "style":{
+        "flex":{
+          "flex":"2",
+          "grow": "2"
+        },
+        "cornerRadius":{
+          "radius":"10"
+        }
+      },
       "onPress": [
         {
           "_beagleAction_": "beagle:pushView",
@@ -82,6 +91,54 @@
           "_beagleAction_": "beagle:pushView",
           "route": {
             "url": "/input"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Touchable Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/touchable"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Loading Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/loading"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "TabBar Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/tabbar"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Lazy Component",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/lazy"
           }
         }
       ]

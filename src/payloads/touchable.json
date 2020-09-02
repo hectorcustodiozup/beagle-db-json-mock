@@ -1,0 +1,36 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "direction": "VERTICAL",
+  "children": [
+    {
+      "_beagleComponent_": "beagle:touchable",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:alert",
+          "message": "I have been touched!"
+        }
+      ],
+      "children": [
+        {
+          "_beagleComponent_": "beagle:image",
+          "path": {
+            "_beagleImagePath_": "remote",
+            "url": "https://picsum.photos/200"
+          }
+        }
+      ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Back",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/home"
+          }
+        }
+      ]
+    }
+  ]
+}

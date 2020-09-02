@@ -1,0 +1,10 @@
+{
+  "_beagleComponent_": "beagle:lazycomponent",
+  "path": "/listview",
+  "initialState": {
+    "_beagleComponent_": "beagle:text",
+    "text": "Loading the screen, please wait",
+    "textColor": "grey",
+    "alignment": "center"
+  }
+}
